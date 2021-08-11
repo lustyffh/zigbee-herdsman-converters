@@ -123,9 +123,10 @@ module.exports = [
         meta: {applyRedFix: true},
     },
     {
-        fingerprint: [{modelID: 'TS0501B', manufacturerName: '_TZ3000_4whigl8i'}],
+        fingerprint: [{modelID: 'TS0501B', manufacturerName: '_TZ3000_4whigl8i'},
+            {modelID: 'TS0501B', manufacturerName: '_TZ3210_dxroobu3'}],
         model: 'TS0501B',
-        description: 'Zigbee light',
+        description: 'Zigbee Single Color LED Controller',
         vendor: 'TuYa',
         extend: extend.light_onoff_brightness(),
     },
